@@ -12,8 +12,8 @@ class BaseCommand extends Command
     protected function configure()
     {
         $this
-            ->addArgument('sender',   InputArgument::REQUIRED, 'Sender telephone number')
-            ->addArgument('imei',     InputArgument::REQUIRED, 'Sender IMEI')
+            ->addArgument('sender',"+41794401401"  InputArgument::REQUIRED, 'Sender telephone number')
+            ->addArgument('imei',  "355901066363839"InputArgument::REQUIRED, 'Sender IMEI')
             ->addArgument('nickname', InputArgument::REQUIRED, 'Sender nickname');
     }
 }
